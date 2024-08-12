@@ -1,11 +1,11 @@
 Products (
-    ProductId INT PRIMARY KEY,
-    ProductName NVARCHAR(100) NOT NULL
+    ProductId INT,
+    ProductName NVARCHAR(100)
 )
 
 Categories (
-    CategoryId INT PRIMARY KEY,
-    CategoryName NVARCHAR(100) NOT NULL
+    CategoryId INT,
+    CategoryName NVARCHAR(100)
 )
 
 ProductCategories (
